@@ -34,6 +34,13 @@ async def on_message(message):
         await message.add_reaction('🇴')
         await message.add_reaction('🇳')
         await message.add_reaction('🇰')
+
+    elif (message.author.name == 'Ubermensch' and message.author.discriminator == '7211'):
+        await message.add_reaction('🇨')
+        await message.add_reaction('🇭')
+        await message.add_reaction('🇴')
+        await message.add_reaction('🇴')
+        await message.add_reaction('🇲')
     else:
         print(message.author.discriminator)
 
