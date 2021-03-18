@@ -39,7 +39,7 @@ async def on_message(message):
         await message.add_reaction('🇨')
         await message.add_reaction('🇭')
         await message.add_reaction('🇴')
-        await message.add_reaction('🇴')
+        await message.add_reaction('⭕')
         await message.add_reaction('🇲')
     else:
         print(message.author.discriminator)
