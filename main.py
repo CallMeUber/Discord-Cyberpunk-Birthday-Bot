@@ -40,7 +40,7 @@ async def on_message(message):
             await react_choom(message)
 
     for gonk in gonk_list:
-        if gonk_flag and ['name'] == author.name and gonk['discriminator'] == author.discriminator:
+        if gonk_flag and gonk['name'] == author.name and gonk['discriminator'] == author.discriminator:
             await react_gonk(message)
 
 
