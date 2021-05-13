@@ -1,0 +1,5 @@
+discord
+venv
+authToken.yml
+
+.idea/**/workspace.xml
