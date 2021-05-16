@@ -146,9 +146,6 @@ async def on_ready():
             else:
                 members_list[user_object] = [general_text_channel]
 
-    for key in members_list:
-        print(f"{key} value: {members_list[key]}")
-
     check_time.start()
 
 
